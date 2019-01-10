@@ -1,0 +1,152 @@
+/*body{
+	
+	background-color: black;
+}*/
+
+/*logo*/
+.logo{
+	width:100%;
+	background-color: red;
+ 	display:flex;
+ 	align-items:center;
+ 	justify-content: center;
+}
+/*navbar*/
+nav{
+
+	width:100%;
+	height:60px;
+	/*background-color: green;*/
+}
+
+.navbar{
+	list-style-type:none;
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration:none;
+
+}
+
+.bloc_local{
+	padding-top:2%;
+	width:100%;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+
+/*Left_actu*/
+.bloc_left{
+	width:70%;
+	height:100%;
+	/*background-color:grey;*/
+}
+
+/*Right_actu*/
+.bloc_right{
+	width:25%;
+	height:900px;
+	padding-top:5%;
+	/*background-color:yellow;*/
+}
+
+.bloc_nat{
+	width:100%;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+/*titles*/
+.title{
+	width:100%;
+	height:60px;
+	/*background-color: black;*/
+	text-align: center;
+}
+
+/*carousel_titre_alaune*/
+.title_car{
+	width:100%;
+	height:60px;
+	/*background-color: yellow;*/
+	text-align: center;
+}
+
+		/*H*/
+h1, h2{
+	padding-top:2%;
+}
+
+h4{
+	font-size:15px;
+	font-weight:bold;
+}
+
+/*actu_locale*/
+.bloc_actu{
+	width:100%;
+	/*height:100%;*/
+	/*background-color: violet;*/
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+
+.actu{
+	width:45%;
+	height:100%;
+	/*background-color:pink;*/
+}
+
+.img_act{
+	width:100%;
+	height:200px;
+}
+
+/*sport_local*/
+.bloc_sport, .bloc_sport_nat{
+	width:90%;
+	margin:0 auto;
+}
+
+article.sport1{
+	width:100%;
+	display:inline-flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+
+article.sport2{
+	width:100%;
+	display:inline-flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+
+.sport1,.sport2{
+	width:45%;
+	height:100%;
+	/*background-color:pink;*/
+}
+
+		/*bloc_right_fd*/
+
+.txt_fd{
+	padding-top:15%;
+}
+
+/*pub*/
+.pub{
+	padding-top:10%;
+}
+
+.flux{
+	width:100%;
+	height:205px;
+	border:solid black 1px;
+}
+
